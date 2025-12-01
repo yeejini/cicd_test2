@@ -8,7 +8,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MainControllerTest {
     @Test
     void main(){
-        org.assertj.core.api.Assertions.assertThat(1).isEqualTo(1);
+        int a = 1;
+        org.assertj.core.api.Assertions.assertThat(a).isEqualTo(0);
     }
 
 }
