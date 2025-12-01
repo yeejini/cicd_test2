@@ -31,7 +31,7 @@ jobs:
       - name: 빌드된 jar 파일 이름을 app.jar로 변경 및 이동
         run: |
           pwd
-          mv ./build/libs/*SNAPSHOT.JAR ./app.jar
+          mv ./build/libs/*SNAPSHOT.jar ./app.jar
           ls -al
 
       - name: EC2로 jar파일을 전송
